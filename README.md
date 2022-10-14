@@ -1,16 +1,16 @@
-# OML Template
+# Pizza Planet
 
-[![Build Status](https://app.travis-ci.com/opencaesar/oml-template.svg?branch=master)](https://app.travis-ci.com/github/opencaesar/oml-template)
-[![Release](https://img.shields.io/github/v/tag/opencaesar/oml-template?label=release)](https://github.com/opencaesar/oml-template/releases/latest)
-[![Documentation](https://img.shields.io/badge/Documentation-HTML-orange)](https://opencaesar.github.io/oml-template/) 
-[![Gitpod](https://img.shields.io/badge/gitpod-open-blue?logo=gitpod)](https://gitpod.io/#https://github.com/opencaesar/oml-template) 
+[![Build Status](https://app.travis-ci.com/capsulecorplab/pizza-planet.svg?branch=master)](https://app.travis-ci.com/github/capsulecorplab/pizza-planet)
+[![Release](https://img.shields.io/github/v/tag/capsulecorplab/pizza-planet?label=release)](https://github.com/capsulecorplab/pizza-planet/releases/latest)
+[![Documentation](https://img.shields.io/badge/Documentation-HTML-orange)](https://capsulecorplab.github.io/pizza-planet/) 
+[![Gitpod](https://img.shields.io/badge/gitpod-open-blue?logo=gitpod)](https://gitpod.io/#https://github.com/capsulecorplab/pizza-planet) 
 
-This repository has a template [OML](https://github.com/opencaesar/oml) project. It is meant to be forked as a starting point by pressing the 'Use this template' button above.
+An OML model of a pizza restaurant, based on Tutorial 1 for creating an OML project http://www.opencaesar.io/oml-tutorials/.
 
 ## Clone
 ```
-  git clone https://github.com/opencaesar/oml-template.git
-  cd oml-template
+  git clone https://github.com/capsulecorplab/pizza-planet.git
+  cd pizza-planet
 ```
 
 ## Build
@@ -45,19 +45,19 @@ Note: if bikeshed is not in the PATH, you can add -pBIKESHED=path/to/bikeshed ar
 ```
 ./gradlew owlLoad
 ```
-Pre-req: A Fuseki server with a firesat dataset must be running at http://localhost:3030/firesat (see below)  
+Pre-req: A Fuseki server with a pizza-planet dataset must be running at http://localhost:3030/pizza-planet (see below)  
 
 ## Run SPARQL Queries
 ```
 ./gradlew owlQuery
 ```
-Pre-req: A Fuseki server with a firesat dataset must be running at http://localhost:3030/firesat (see below)  
+Pre-req: A Fuseki server with a pizza-planet dataset must be running at http://localhost:3030/pizza-planet (see below)  
 
 ## Run SHACL Rules
 ```
 ./gradlew owlShacl
 ```
-Pre-req: A Fuseki server with a firesat dataset must be running at http://localhost:3030/firesat (see below) 
+Pre-req: A Fuseki server with a pizza-planet dataset must be running at http://localhost:3030/pizza-planet (see below) 
 
 ## Publish to Maven Local
 ```
